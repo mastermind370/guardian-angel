@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button:focus-visible, input:focus-visible, select:focus-visible { outline: 4px solid #22d3ee; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
